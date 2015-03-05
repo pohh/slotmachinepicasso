@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:padding="2dp"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent">
+
+	<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			>
+
+		<com.ppoohh.slotmachine.DynamicHeightImageView
+				android:id="@+id/dynamic_height_image_view"
+				android:scaleType="fitXY"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
+
+		<TextView
+				android:id="@+id/item_position_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+	</RelativeLayout>
+</FrameLayout>
